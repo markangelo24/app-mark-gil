@@ -1,0 +1,134 @@
+
+
+	ul {list-style-type: none;}
+	body {font-family: verdana, sans-serif}
+
+	/* month header */
+	.month {
+		padding: 70px 25px;
+		width: 95%;
+		background: #1abc9c;
+		text-align: center;
+	background:black;
+	margin:50px auto;
+	-webkit-animation:bgChange 2s 2s alternate infinite;
+	transition: all 2s ease;
+
+
+
+	}
+
+		/* month list */
+
+	.month ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	.month ul li {
+			color: white;
+			font-size:30px;
+			text-transform:uppercase;
+			letter-spacing:3px ;
+		}
+
+	/* previous button inside month header */
+	.month .prev {
+		float: left;
+		padding-top: 10px ;
+
+	}
+
+	/* next button */
+	.month .next {
+		float: right;
+		padding-top: 10px;
+
+	}
+
+	/* weekdays (mon-sun) */
+	.weekdays {
+		margin: 0;
+		padding: 10px 0;
+		background-color: #ddd;
+
+	}
+
+	.weekdays li {
+		display: inline-block;
+		width: 13%;
+		color: #666;
+		text-align: center;
+
+	}
+
+	/* days (1-31) */
+	.days {
+		padding: 10px 0;
+		background:#eee;
+		margin: 0;
+	}
+
+	.days li {
+		list-style-type: none;
+		display: inline-block;
+		width: 13%;
+		text-align: center;
+		margin-bottom: 5px;
+		font-size: 12px;
+		color: #777;
+
+	}
+ 	/* highlight the current day */
+ 	.days li .active {
+ 		padding: 5px;
+ 		background: #1abc9c;
+ 		color: white !important;
+ 	}
+ 	@-webkit-keyframes bgChange {
+	0% {
+		background: #24b4de;
+	}
+	12.5% {
+		background: #000;
+	}
+
+	25% {
+		background: #ff0;
+	}
+	37.5% {
+		background: #000;
+	}
+	50% {
+		background: #17a928;
+
+	}
+	62.5% {
+		background: #868686;
+	}
+	75% {
+		background: #ff00ff;
+	}
+	87.5% {
+		background: #1f7a29;
+	}
+	100% {
+		background: #399cb9;
+	}
+}
+
+button{
+	color:red;
+	font-size: 20px;
+	background-color: gray;
+	border:none;
+}
+
+input{
+	font-size: 20px;
+}
+
+.text{
+	font-size: 20px;
+	font-family: 'arial';
+}
